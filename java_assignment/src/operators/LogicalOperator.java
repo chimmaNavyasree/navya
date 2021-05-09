@@ -1,0 +1,24 @@
+package operators;
+
+public class LogicalOperator {
+
+	public static void main(String[] args) {
+		int a=10;  
+		int b=5;  
+		int c=20;  
+		//logiacl AND
+		System.out.println(" FOR AND");
+		System.out.println(a<b&a<c);//false & true = false  
+		System.out.println(a<b&a<c);//false & true = false  
+		//logical OR
+		System.out.println(" FOR OR ");
+		System.out.println(a>b|a<c);//true | true = true  
+		System.out.println(a>b|a<c);//true | true = true 
+		//logical NOT
+		System.out.println(" FOR NOT");
+		System.out.println(!(a<b&a<c));//!(false & true)=true
+		System.out.println(!(a>b|a<c));//!(true | true) = false
+
+	}
+
+}
